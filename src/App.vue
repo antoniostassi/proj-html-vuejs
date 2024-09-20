@@ -1,5 +1,7 @@
 <script>
     import TestTemplate from './components/TestTemplate.vue';
+    import HeaderComponent from './components/HeaderComponent.vue';
+    
     export default {
         data(){
             return{
@@ -7,17 +9,16 @@
             }
         },
         components:{
-            TestTemplate
+            HeaderComponent
         }
     }
 </script>
 
 <template>
-    <h1>Test</h1>
-    <TestTemplate/>
+    <HeaderComponent/>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
     @import "bootstrap/scss/bootstrap";
     
 </style>
