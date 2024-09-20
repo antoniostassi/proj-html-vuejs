@@ -1,3 +1,4 @@
-# Baker design style
+# Baker Information Site
+Click <a href="demo.png">here</a> to see the design demo.
 
-<a href="demo.png"> Template </a>
+ <strong>DeadLine: 24/09 - 6PM</strong>
