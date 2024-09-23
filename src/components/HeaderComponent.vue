@@ -32,10 +32,10 @@ import NavbarComponent from './NavbarComponent.vue';
             <section>
                 <div class="container-xxl">
                     <div class="description">
-                        <span class="subtitle-font">FRESH & TASTY BAKERY EVERY DAY</span>
-                        <h2 class="dark-font">The Perfect Fresh <br>Bread</h2>
-                        <p class="subtitle-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, fugit. Unde asperiores porro natus, dolores magnam quo quas fugiat architecto.</p>
-                        <button>Explore our products</button>
+                        <span class="light-font serif-regular">FRESH & TASTY BAKERY EVERY DAY</span>
+                        <h2 class="dark-font serif-bold mt-2 mb-4">The Perfect Fresh Bread</h2>
+                        <p class="subtitle-font serif-regular mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, fugit. Unde asperiores porro natus, dolores magnam quo quas fugiat architecto.</p>
+                        <button class="light-font serif-regular py-2 px-3 border-0 rounded bg-white">Explore our products</button>
                     </div>
                 </div>
 
@@ -63,7 +63,22 @@ import NavbarComponent from './NavbarComponent.vue';
         margin-top:70px;
     }
     .description {
-        padding-top:140px;
-        max-width:350px;
+        padding-top:120px;
+        max-width:400px;
+
+        span {
+            font-size:0.55rem;
+            word-spacing:5px;
+            letter-spacing:1px;
+        }
+
+        button {
+            font-size: 0.8rem;
+        }
+
+        h2 {
+            font-size:3rem;
+        }
     }
+    
 </style>
