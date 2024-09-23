@@ -3,6 +3,7 @@
     import HeaderComponent from './components/HeaderComponent.vue';
     import MainComponent from './components/MainComponent.vue';
     import FooterComponent from './components/FooterComponent.vue';
+    import FixedNav from './components/FixedNav.vue';
 
 
     export default {
@@ -14,12 +15,14 @@
         components:{
             HeaderComponent,
             MainComponent,
-            FooterComponent
+            FooterComponent,
+            FixedNav
         }
     }
 </script>
 
 <template>
+    <FixedNav/>
     <HeaderComponent/>
     <MainComponent/>
     <FooterComponent/>

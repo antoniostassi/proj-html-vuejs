@@ -39,7 +39,6 @@ import NavbarComponent from './NavbarComponent.vue';
                     </div>
                 </div>
 
-                
             </section>
         </div>
         
