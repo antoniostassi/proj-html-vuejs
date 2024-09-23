@@ -3,14 +3,14 @@
         data(){
             return{
                 navbarItems: [
-                    "Home",
-                    "Shop",
-                    "About",
-                    "Gallery",
-                    "Locations",
-                    "Journal",
-                    "Contact",
-                    "My account"
+                    "HOME",
+                    "SHOP",
+                    "ABOUT",
+                    "GALLERY",
+                    "LOCATIONS",
+                    "JOURNAL",
+                    "CONTACT",
+                    "MY ACCOUNT"
                 ]
             }
         }
@@ -19,13 +19,12 @@
 
 <template>
     <nav>
-        <ul class="d-flex justify-content-end align-items-center">
-            <li v-for="(btn, index) in navbarItems" :key="index" class="px-2"><a href="#">{{btn}}</a></li> <!-- Header list will be here -->
-            <li class="me-4"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <ul class="d-flex justify-content-end pt-3">
+            <li v-for="(btn, index) in navbarItems" :key="index" class="px-2"><a href="#" class="dark-text">{{btn}}</a></li> <!-- Header list will be here -->
+            <li class="me-4 px-2"><a href="#"><i class="fa-solid fa-cart-shopping dark-text"></i></a></li>
         </ul>
     </nav>
 </template>
 
-<style scoped>
-
+<style lang="scss" scoped>
 </style>

@@ -1,0 +1,23 @@
+@import "bootstrap/scss/bootstrap";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "/src/assets/scss/variables.scss";
+@import "/src/assets/scss/classes.scss";
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ol, ul, li {
+    list-style-type: none;
+    &>a{
+        text-decoration:none;
+        color:black;
+    }
+}
+
+img {
+    max-width: 100%;
+}
