@@ -5,7 +5,6 @@
     import FooterComponent from './components/FooterComponent.vue';
     import FixedNav from './components/FixedNav.vue';
 
-
     export default {
         data(){
             return{
