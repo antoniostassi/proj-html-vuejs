@@ -1,9 +1,14 @@
 <script>
+import NavbarComponent from './NavbarComponent.vue';
+
     export default {
         data(){
             return{
 
             }
+        },
+        components:{
+            NavbarComponent
         }
     }
 </script>
@@ -12,14 +17,18 @@
 
     <header>
 
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-3">
+                    <img src="/src/assets/images/avada-bakery-logo.png" alt="Logo">
+                </div>
+                <div class="col-9">
+                    <NavbarComponent/>
+                </div>
+            </div>
+        
+        </div>
         <!-- Logo + NavBar-->
-        <img src="/src/assets/images/avada-bakery-logo.png" alt="Logo">
-
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li> <!-- Header list will be here -->
-            </ul>
-        </nav>
         
         <!-- First section "The Perfect Fresh Bread"-->
         <section>
