@@ -23,21 +23,7 @@ import Weddings from './Weddings.vue';
             <OurProducts/>
             <Weddings/>
             
-            
-            <section> <!-- Biscuits Prices -->
-                <div class="row">
-                    <div class="col-4 text-center">
-                        <h2>Find a freshly baked product perfect for you</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, cupiditate?</p>
-                        <button>Shop All Products</button>
-                    </div>
-                    <div class="col-8">
-                        <div class="carousel four-img">
-                            <!-- shop carousel -->
-                        </div>
-                    </div>
-                </div>
-            </section>
+        
             
             <section> <!-- big images section -->
 
