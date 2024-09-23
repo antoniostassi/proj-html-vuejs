@@ -49,36 +49,6 @@ import NavbarComponent from './NavbarComponent.vue';
 </template>
 
 <style lang="scss" scoped>
-    img {
-        width:180px;
-        margin-left:20px;
-    }
-    .container-fluid {
-        background-image: url("/src/assets/images/hero-header-bakery.jpg");
-        background-size: cover;
-        background-position:center;
-        height: 800px;
-    }
-    section > .container-xxl {
-        margin-top:70px;
-    }
-    .description {
-        padding-top:120px;
-        max-width:400px;
-
-        span {
-            font-size:0.55rem;
-            word-spacing:5px;
-            letter-spacing:1px;
-        }
-
-        button {
-            font-size: 0.8rem;
-        }
-
-        h2 {
-            font-size:3rem;
-        }
-    }
+    @use "../assets/scss/components/HeaderComponent.scss";
     
 </style>
