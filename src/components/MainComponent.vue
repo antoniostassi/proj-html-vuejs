@@ -1,5 +1,6 @@
 <script>
 import OurProducts from './OurProducts.vue';
+import Weddings from './Weddings.vue';
 
     export default {
         data(){
@@ -8,7 +9,8 @@ import OurProducts from './OurProducts.vue';
             }
         },
         components:{
-            OurProducts
+            OurProducts,
+            Weddings
         }
     }
 </script>
@@ -19,22 +21,8 @@ import OurProducts from './OurProducts.vue';
 
             <!-- Our Products Section -->
             <OurProducts/>
-
-            <section> <!-- Wedding -->
-                <div class="text-center">
-                    <span>CORPORATE & WEDDINGS</span>
-                    <h1>Baking Special Moments</h1>
-                </div>
-
-                <div class="row">
-                    <div class="col-6">
-                        <!-- first image -->
-                    </div>
-                    <div class="col-6">
-                        <!-- second image -->
-                    </div>
-                </div>
-            </section>
+            <Weddings/>
+            
             
             <section> <!-- Biscuits Prices -->
                 <div class="row">

@@ -1,0 +1,18 @@
+#hover-wedding {
+    transition:1s all;
+}
+
+#hover-wedding {
+    position:absolute;
+    background-image: url("../assets/images/wedding-bg.jpg");
+    background-size: cover;
+    opacity:1;
+    top:0;
+    left:0;
+    width:95%;
+    height: 100%;
+}
+
+.col-6:hover #hover-wedding {
+    background-image: url('../assets/images/wedding-hover-bg.jpg');
+}
