@@ -44,6 +44,7 @@ export const store = reactive({
             productPrice:"$12.00 - $20.00",
             productImg:"blackberry-stuffed-bread.jpg"
         }
-    ]
+    ],
+
 
 });
