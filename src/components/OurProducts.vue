@@ -53,15 +53,31 @@
             </div>
 
             <div class="col-7">
-                <div class="carousel w-100 d-flex border position-relative">
+                <div class="carousel w-100 d-flex position-relative">
                     <div class="backward-img light-font" @click="arrowBackward()">
                         <i class="fa-solid fa-circle-chevron-left"></i>
                     </div>
                     <div class="forward-img light-font" @click="arrowForward()">
                         <i class="fa-solid fa-circle-chevron-right"></i>
                     </div>
-                    <div class="image" :style="{backgroundImage:`url('/src/assets/images/${store.ourProducts[currentCarouselImg].productImg}')`}"></div>
-                    <div class="image" :style="{backgroundImage:`url('/src/assets/images/${store.ourProducts[secondCarouselImg].productImg}')`}"></div>
+                    <div class="image mx-2" :style="{backgroundImage:`url('/src/assets/images/${store.ourProducts[currentCarouselImg].productImg}')`}">
+                        <div class="d-flex align-items-center justify-content-center h-100">
+                            <div class="product-description text-center serif-regular p-3 rounded dark-font">
+                                <h4 class="m-0">{{ store.ourProducts[currentCarouselImg].productName }}</h4>
+                                <p class="m-0">{{ store.ourProducts[currentCarouselImg].productCategory }}</p>
+                                <h3 class="m-0">{{ store.ourProducts[currentCarouselImg].productPrice }}</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image mx-2" :style="{backgroundImage:`url('/src/assets/images/${store.ourProducts[secondCarouselImg].productImg}')`}">
+                        <div class="d-flex align-items-center justify-content-center h-100">
+                            <div class="product-description text-center serif-regular p-3 rounded dark-font">
+                                <h4 class="m-0">{{ store.ourProducts[secondCarouselImg].productName }}</h4>
+                                <p class="m-0">{{ store.ourProducts[secondCarouselImg].productCategory }}</p>
+                                <h3 class="m-0">{{ store.ourProducts[secondCarouselImg].productPrice }}</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

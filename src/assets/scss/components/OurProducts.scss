@@ -18,10 +18,24 @@
         width:100%;
         
         .image {
+
             height:400px;
             width:100%;
             background-position:center;
             background-size: cover;
+            
+
+            & .product-description {
+                opacity:0;
+                transition:all 1s;
+                font-size:1rem;
+                max-width:80%;
+                background-color:#F9F1F2DB;
+            }
+            &:hover .product-description {
+                opacity:1;
+                cursor:default;
+            }
         }
 
         .forward-img,
@@ -31,7 +45,7 @@
         .forward-img {
             position:absolute;
             top:160px;
-            right:-30px;
+            right:-20px;
             font-size:3rem;
 
             &:hover {
@@ -42,7 +56,7 @@
         .backward-img {
             position:absolute;
             top:160px;
-            left:-30px;
+            left:-20px;
             font-size:3rem;
 
             &:hover {
