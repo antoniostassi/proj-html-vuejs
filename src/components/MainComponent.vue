@@ -1,9 +1,14 @@
 <script>
+import OurProducts from './OurProducts.vue';
+
     export default {
         data(){
             return{
 
             }
+        },
+        components:{
+            OurProducts
         }
     }
 </script>
@@ -12,22 +17,8 @@
     <main>
         <div class="container-xxl">
 
-            <section>
-                <div class="row">
-                    <div class="col-5">
-                        <!-- our producs-->
-                        <span>OUR PRODUCTS</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorem.</p>
-                        <button>Start Shopping</button>
-                    </div>
-
-                    <div class="col-7">
-                        <div class="carousel two-images">
-                            <!-- first carousel -->
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <!-- Our Products Section -->
+            <OurProducts/>
 
             <section> <!-- Wedding -->
                 <div class="text-center">

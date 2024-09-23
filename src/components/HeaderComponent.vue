@@ -32,10 +32,10 @@ import NavbarComponent from './NavbarComponent.vue';
             <section>
                 <div class="container-xxl">
                     <div class="description">
-                        <span class="light-font serif-regular">FRESH & TASTY BAKERY EVERY DAY</span>
+                        <span class="light-font serif-regular small-title">FRESH & TASTY BAKERY EVERY DAY</span>
                         <h2 class="dark-font serif-bold mt-2 mb-4">The Perfect Fresh Bread</h2>
                         <p class="subtitle-font serif-regular mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, fugit. Unde asperiores porro natus, dolores magnam quo quas fugiat architecto.</p>
-                        <div class="bakery-btn light-font serif-regular py-2 px-3 border-0 rounded">Explore our products</div>
+                        <div class="bakery-btn light-font serif-regular py-2 px-3 rounded">Explore our products</div>
                     </div>
                 </div>
 

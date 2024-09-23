@@ -15,7 +15,8 @@
 }
 
 .btn-bg-color {
-    color: $btn-dark-color;
+    background-color: $btn-dark-color;
+    color:white;
 }
 
 // Fonts
@@ -44,4 +45,10 @@
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     min-width:60px;
+}
+
+.small-title {
+    font-size:0.55rem;
+    word-spacing:5px;
+    letter-spacing:1px;
 }

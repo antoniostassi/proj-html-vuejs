@@ -1,0 +1,14 @@
+@import "../variables.scss";
+
+.our-products {
+    margin-top:120px;
+    .btn-bg-color {
+        font-size:0.8rem;
+        border: 1px solid $btn-dark-color;
+        transition: all 0.6s;
+        &:hover {
+            background-color: white;
+            color: $btn-dark-color;
+        }
+    }
+}
