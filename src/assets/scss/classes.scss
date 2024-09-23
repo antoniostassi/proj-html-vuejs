@@ -1,5 +1,7 @@
 
 //General Classes
+
+// Palettes
 .light-font {
     color: $font1;
 }
@@ -16,6 +18,7 @@
     color: $btn-dark-color;
 }
 
+// Fonts
 .serif-bold {
     font-family: 'SourceSerif-Bold', sans-serif;
 }
@@ -26,4 +29,13 @@
 
 .serif-semibold {
     font-family: 'SourceSerif-Semibold', sans-serif;
+}
+
+// Components 
+
+.bakery-btn {
+    max-width:fit-content;
+    &:hover {
+        cursor: pointer;
+    }
 }

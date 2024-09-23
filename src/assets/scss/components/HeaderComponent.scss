@@ -1,16 +1,21 @@
+
+@import "../variables.scss";
 img {
     width:180px;
     margin-left:20px;
 }
+
 .container-fluid {
     background-image: url("/src/assets/images/hero-header-bakery.jpg");
     background-size: cover;
     background-position:center;
     height: 800px;
 }
+
 section > .container-xxl {
     margin-top:70px;
 }
+
 .description {
     padding-top:120px;
     max-width:400px;
@@ -21,8 +26,14 @@ section > .container-xxl {
         letter-spacing:1px;
     }
 
-    button {
+    .bakery-btn {
         font-size: 0.8rem;
+        transition:all 1s;
+        background-color: white;
+        &:hover{
+            background-color:$btn-dark-color;
+            color:white;
+        }
     }
 
     h2 {

@@ -35,7 +35,7 @@ import NavbarComponent from './NavbarComponent.vue';
                         <span class="light-font serif-regular">FRESH & TASTY BAKERY EVERY DAY</span>
                         <h2 class="dark-font serif-bold mt-2 mb-4">The Perfect Fresh Bread</h2>
                         <p class="subtitle-font serif-regular mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, fugit. Unde asperiores porro natus, dolores magnam quo quas fugiat architecto.</p>
-                        <button class="light-font serif-regular py-2 px-3 border-0 rounded bg-white">Explore our products</button>
+                        <div class="bakery-btn light-font serif-regular py-2 px-3 border-0 rounded">Explore our products</div>
                     </div>
                 </div>
 
@@ -50,5 +50,4 @@ import NavbarComponent from './NavbarComponent.vue';
 
 <style lang="scss" scoped>
     @use "../assets/scss/components/HeaderComponent.scss";
-    
 </style>
