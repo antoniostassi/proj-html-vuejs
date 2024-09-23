@@ -21,3 +21,18 @@ ol, ul, li {
 img {
     max-width: 100%;
 }
+
+@font-face {
+    font-family: 'SourceSerif-Bold';
+    src: url(./assets/fonts/SourceSerifPro-Bold.otf);
+}
+
+@font-face {
+    font-family: 'SourceSerif-Regular';
+    src: url(./assets/fonts/SourceSerifPro-Regular.otf);
+}
+
+@font-face {
+    font-family: 'SourceSerif-Semibold';
+    src: url(./assets/fonts/SourceSerifPro-Semibold.otf);
+}

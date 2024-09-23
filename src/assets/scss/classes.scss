@@ -4,7 +4,7 @@
     color: $font1;
 }
 
-.dark-text {
+.dark-font {
     color: $font2;
 }
 
@@ -14,4 +14,16 @@
 
 .btn-bg-color {
     color: $btn-dark-color;
+}
+
+.serif-bold {
+    font-family: 'SourceSerif-Bold', sans-serif;
+}
+
+.serif-regular {
+    font-family: 'SourceSerif-Regular', sans-serif;
+}
+
+.serif-semibold {
+    font-family: 'SourceSerif-Semibold', sans-serif;
 }

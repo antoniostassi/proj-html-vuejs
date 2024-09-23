@@ -30,11 +30,11 @@ import NavbarComponent from './NavbarComponent.vue';
 
                 <!-- First section "The Perfect Fresh Bread"-->
             <section>
-                <div class="container-xxl border">
+                <div class="container-xxl">
                     <div class="description">
-                        <span>FRESH & TASTY BAKERY EVERY DAY</span>
-                        <h2>The Perfect Fresh <br>Bread</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, fugit. Unde asperiores porro natus, dolores magnam quo quas fugiat architecto.</p>
+                        <span class="subtitle-font">FRESH & TASTY BAKERY EVERY DAY</span>
+                        <h2 class="dark-font">The Perfect Fresh <br>Bread</h2>
+                        <p class="subtitle-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, fugit. Unde asperiores porro natus, dolores magnam quo quas fugiat architecto.</p>
                         <button>Explore our products</button>
                     </div>
                 </div>
@@ -62,5 +62,8 @@ import NavbarComponent from './NavbarComponent.vue';
     section > .container-xxl {
         margin-top:70px;
     }
-
+    .description {
+        padding-top:140px;
+        max-width:350px;
+    }
 </style>
