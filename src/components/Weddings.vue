@@ -15,11 +15,11 @@
             <h2 class="serif-bold dark-font">Baking Special Moments</h2>
         </div>
 
-        <div class="row mt-5">
-            <div class="col-6">
-                <img src="../assets/images/corporate-bg.jpg" alt="Wedding">
+        <div class="d-flex mt-5 justify-content-between">
+            <div class="my-col-6">
+                <img src="../assets/images/corporate-bg.jpg" alt="Corporate">
             </div>
-            <div class="col-6 position-relative d-flex justify-content-end">
+            <div class="my-col-6 position-relative d-flex align-content-end">
                 <div id="hover-wedding"></div>
             </div>
         </div>
