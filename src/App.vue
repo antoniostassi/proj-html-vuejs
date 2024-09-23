@@ -27,5 +27,6 @@
 
 <style lang="scss">
     @import "bootstrap/scss/bootstrap";
+    @import "@fortawesome/fontawesome-free/css/all.min.css";
     
 </style>

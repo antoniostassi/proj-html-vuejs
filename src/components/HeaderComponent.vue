@@ -18,7 +18,7 @@ import NavbarComponent from './NavbarComponent.vue';
     <header>
 
         <div class="container-xxl">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-3">
                     <img src="/src/assets/images/avada-bakery-logo.png" alt="Logo">
                 </div>
