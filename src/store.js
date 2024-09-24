@@ -1,6 +1,41 @@
 import { reactive } from 'vue';
 export const store = reactive({
 
+    navbarItems: [
+        {
+            linkName: "Home",
+            linkURL: "#"
+        },
+        {
+            linkName: "Shop",
+            linkURL: "#"
+        },
+        {
+            linkName: "About",
+            linkURL: "#"
+        },
+        {
+            linkName: "Gallery",
+            linkURL: "#"
+        },
+        {
+            linkName: "Locations",
+            linkURL: "#"
+        },
+        {
+            linkName: "Journal",
+            linkURL: "#"
+        },
+        {
+            linkName: "Contact",
+            linkURL: "#"
+        },
+        {
+            linkName: "My Account",
+            linkURL: "#"
+        }
+    ],
+
     ourProducts: [
         {
             productName: "Choco Chip Cookies",
