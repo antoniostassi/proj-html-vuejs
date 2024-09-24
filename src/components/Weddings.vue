@@ -50,7 +50,7 @@
                 <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa consequuntur laborum voluptatum recusandae porro accusamus!</p>
             </div>
             <div class="col-9 ps-5">
-                <Splide :has-track="false" aria-label="..." :options="{ autoWidth:true, overflow:true, pagination:false}">
+                <Splide :has-track="false" aria-label="..." :options="{ autoWidth:true, overflow:true, pagination:false, autoplay:true, interval:2000}">
                     <SplideTrack>
                         <SplideSlide v-for="(k, index) in store.ourProducts" :key="index">
                             <img style="width:210px; margin:0 10px" :src="`/src/assets/images/${k.productImg}`" :alt="k.productName" >

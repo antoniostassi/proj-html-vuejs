@@ -1,0 +1,47 @@
+@import '../variables.scss';
+.w-100 {
+    margin-top: 60px;
+
+    .jumbo-ny,
+    .jumbo-uk {
+        height:400px;
+        width: 100%;
+        background-size: cover;
+    }
+    
+    .jumbo-ny {
+        background-image: url('../assets/images/new-york-bk.jpg');
+    }
+
+    .jumbo-uk {
+        background-image: url('../assets/images/london-bk.jpg');
+    }
+
+    .baker-desc-ny,
+    .baker-desc-uk {
+        height:200px;
+    }
+
+    .baker-desc-ny {
+        background-color:#F1F9FB;
+    }
+
+    .baker-desc-uk {
+        background-color: #FAF3E3;
+    }
+
+    .minor-sub-title {
+        font-size:0.75rem;
+    }
+
+    .bakery-btn {
+        background-color:white;
+        font-size:0.9rem;
+        transition: all 0.6s;
+
+        &:hover {
+            background-color: $btn-dark-color;
+            color:white;
+        }
+    }
+}

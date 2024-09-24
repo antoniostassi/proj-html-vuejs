@@ -51,7 +51,7 @@
                 <div class="my-card">
                     <span class="serif-regular small-title light-font">DON'T JUST TAKE OUR WORD FOR IT</span>
                     <h2 class="serif-bold dark-font mt-4 mb-5">❝Finally found an alternative to the mass produced products. Something that incorporates real organic ingredients, nutrient dense wellness while promoting sustainability and activity.❞</h2>
-                    <span class="serif-regular small-title author">Rachel Cooper, Founder</span>
+                    <span class="serif-regular small-title author gray-font">Rachel Cooper, Founder</span>
                 </div>
             </div>
         </div>
@@ -78,97 +78,6 @@
 </template>
 
 <style lang="scss" scoped>
-
-    @import '../assets/scss/mixins.scss';
-    .jumbotron.step-one {
-        height:600px;
-        background-image:url('../assets/images/bakery-process-1.jpg');
-        background-size:cover;
-
-        .backdrop-fx {
-            @include bg-backdrop;
-            padding:40px;
-
-            h2.serif-bold {
-                padding-top:20px;
-                padding-left:30px;
-                font-size:2.7rem;
-            }
-
-            h2.text-end {
-                font-size:5rem;
-                padding-right:40px;
-            }
-
-            .desc {
-                margin-top:38%;
-            }
-        }
-    }
-
-    .step-two {
-        height:600px;
-        background-image: url('../assets/images/bakery-process-2.jpg');
-        background-size:cover;
-        background-position:right;
-
-        .backdrop-fx {
-            @include bg-backdrop;
-            padding:40px;
-        }
-
-        h2.serif-bold {
-            margin-top:18px;
-            font-size: 2.5rem;
-            padding-left:10px;
-        }
-
-        h2.serif-regular.text-end {
-            font-size:5rem;
-            padding-left:10px;
-        }
-
-        .desc {
-            margin-top:60%;
-        }
-    }
-
-    .my-card {
-        height:600px;
-        background-color: #F4EFF3;
-        padding:80px;
-
-        .author {
-            font-size:0.7rem;
-        }
-    }
-
-    .jumbotron.step-three {
-        height:600px;
-        background-image:url('../assets/images/bakery-process-3.jpg');
-        background-size:cover;
-
-        .backdrop-fx {
-            @include bg-backdrop;
-            padding:40px;
-
-            h2.serif-bold {
-                padding-top:20px;
-                padding-left:30px;
-                font-size:2.7rem;
-            }
-
-            h2.text-end {
-                font-size:5rem;
-                padding-right:40px;
-            }
-
-            .desc {
-                margin-top:38%;
-                padding-left:40px;
-            }
-        }
-    }
-    
+    @import '../assets/scss/components/Jumbotrons.scss';
     
 </style>

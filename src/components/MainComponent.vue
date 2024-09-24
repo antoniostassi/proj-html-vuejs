@@ -1,6 +1,8 @@
 <script>
 import Jumbotrons from './Jumbotrons.vue';
+import Locations from './Locations.vue';
 import OurProducts from './OurProducts.vue';
+import Social from './Social.vue';
 import Weddings from './Weddings.vue';
 
     export default {
@@ -12,7 +14,9 @@ import Weddings from './Weddings.vue';
         components:{
             OurProducts,
             Weddings,
-            Jumbotrons
+            Jumbotrons,
+            Locations,
+            Social
         }
     }
 </script>
@@ -25,20 +29,8 @@ import Weddings from './Weddings.vue';
             <OurProducts/>
             <Weddings/>
             <Jumbotrons/>
-            
-        
-            
-            <section> <!-- big images section -->
-
-            </section>
-
-            <section> <!-- stores locations -->
-
-            </section>
-
-            <section> <!-- social images -->
-
-            </section>
+            <Locations/>
+            <Social/>
 
         </div>
         
