@@ -1,4 +1,5 @@
 <script>
+import BeforeFooterCTA from './BeforeFooterCTA.vue';
 import Jumbotrons from './Jumbotrons.vue';
 import Locations from './Locations.vue';
 import OurProducts from './OurProducts.vue';
@@ -16,7 +17,8 @@ import Weddings from './Weddings.vue';
             Weddings,
             Jumbotrons,
             Locations,
-            Social
+            Social,
+            BeforeFooterCTA
         }
     }
 </script>
@@ -24,25 +26,16 @@ import Weddings from './Weddings.vue';
 <template>
     <main>
         <div class="container-xxl">
-
             <!-- Our Products Section -->
             <OurProducts/>
             <Weddings/>
             <Jumbotrons/>
             <Locations/>
             <Social/>
-
         </div>
-        
-        <section> <!-- Last section -->
-            <div class="big-bg">
-                <div class="container">
-                    <span>TRY OUR SEASONAL PRODUCTS</span>
-                    <h2>Order for pick-up or delivery to your home</h2>
-                    <button>Shop Now</button>
-                </div>
-            </div>
-        </section>
+
+        <BeforeFooterCTA/>
+
     </main>
 </template>
 
