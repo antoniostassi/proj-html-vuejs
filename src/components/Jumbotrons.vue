@@ -53,7 +53,23 @@
                     <h2 class="serif-bold dark-font mt-4 mb-5">❝Finally found an alternative to the mass produced products. Something that incorporates real organic ingredients, nutrient dense wellness while promoting sustainability and activity.❞</h2>
                     <span class="serif-regular small-title author">Rachel Cooper, Founder</span>
                 </div>
-                <!-- insert here --> 
+            </div>
+        </div>
+
+        <div class="jumbotron step-three w-100 mt-4">
+            <div class="backdrop-fx text-white">
+                <div class="row">
+                    <div class="col-6">
+                        <h2 class="serif-bold">Delivered to your home</h2>
+                        <div class="desc">
+                            <span class="serif-regular small-title">BAKED TO ORDER & GIFT WRAPPED</span>
+                            <p class="serif-regular mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse fugiat debitis praesentium itaque et nisi, doloremque, voluptate id deleniti voluptatibus rerum consequuntur ab dolor amet odio nulla laudantium illo cumque incidunt? Recusandae aspernatur corporis praesentium maiores totam doloremque tenetur quam?</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h2 class="serif-regular text-end">03</h2>
+                    </div>
+                </div>
             </div>
         </div>
         
@@ -124,6 +140,33 @@
 
         .author {
             font-size:0.7rem;
+        }
+    }
+
+    .jumbotron.step-three {
+        height:600px;
+        background-image:url('../assets/images/bakery-process-3.jpg');
+        background-size:cover;
+
+        .backdrop-fx {
+            @include bg-backdrop;
+            padding:40px;
+
+            h2.serif-bold {
+                padding-top:20px;
+                padding-left:30px;
+                font-size:2.7rem;
+            }
+
+            h2.text-end {
+                font-size:5rem;
+                padding-right:40px;
+            }
+
+            .desc {
+                margin-top:38%;
+                padding-left:40px;
+            }
         }
     }
     
