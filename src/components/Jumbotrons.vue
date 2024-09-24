@@ -48,6 +48,11 @@
                 </div>
             </div>
             <div class="col-6">
+                <div class="my-card">
+                    <span class="serif-regular small-title light-font">DON'T JUST TAKE OUR WORD FOR IT</span>
+                    <h2 class="serif-bold dark-font mt-4 mb-5">❝Finally found an alternative to the mass produced products. Something that incorporates real organic ingredients, nutrient dense wellness while promoting sustainability and activity.❞</h2>
+                    <span class="serif-regular small-title author">Rachel Cooper, Founder</span>
+                </div>
                 <!-- insert here --> 
             </div>
         </div>
@@ -109,6 +114,16 @@
 
         .desc {
             margin-top:60%;
+        }
+    }
+
+    .my-card {
+        height:600px;
+        background-color: #F4EFF3;
+        padding:80px;
+
+        .author {
+            font-size:0.7rem;
         }
     }
     
