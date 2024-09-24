@@ -16,6 +16,7 @@
                 <img src="../assets/images/avada-bakery-logo.png" alt="Logo" style="width:130px;">
                 <ul class="mt-5 d-flex gap-4 p-0">
                     <li v-for="(link, index) in store.navbarItems"><a :href="link.linkURL" class="light-font serif-regular">{{link.linkName}}</a></li>
+                    <li class="me-4 px-2"><a href="#"><i class="fa-solid fa-cart-shopping dark-font"></i></a></li>   
                 </ul>
             </div>
             <div class="col"></div>

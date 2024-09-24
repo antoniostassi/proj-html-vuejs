@@ -17,7 +17,7 @@
                 <a :href="link.linkURL" class="dark-font serif-regular">{{link.linkName.toUpperCase()}}</a>
                 <div :class="index == currentlyOn ? 'active-page' : 'under-a'"></div>
             </li> <!-- Header list will be here -->
-            <li class="me-4 px-2"><a href="#"><i class="fa-solid fa-cart-shopping dark-text"></i></a></li>
+            <li class="me-4 px-2"><a href="#"><i class="fa-solid fa-cart-shopping dark-font"></i></a></li>
         </ul>
     </nav>
 </template>
