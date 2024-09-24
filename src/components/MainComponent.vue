@@ -1,4 +1,5 @@
 <script>
+import Jumbotrons from './Jumbotrons.vue';
 import OurProducts from './OurProducts.vue';
 import Weddings from './Weddings.vue';
 
@@ -10,7 +11,8 @@ import Weddings from './Weddings.vue';
         },
         components:{
             OurProducts,
-            Weddings
+            Weddings,
+            Jumbotrons
         }
     }
 </script>
@@ -22,6 +24,7 @@ import Weddings from './Weddings.vue';
             <!-- Our Products Section -->
             <OurProducts/>
             <Weddings/>
+            <Jumbotrons/>
             
         
             

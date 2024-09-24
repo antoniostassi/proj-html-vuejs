@@ -1,0 +1,5 @@
+@mixin bg-backdrop {
+    background: rgb(7,0,6);
+    background: linear-gradient(342deg, rgba(7,0,6,0.604079131652661) 23%, rgba(7,0,6,0.27074579831932777) 100%);
+    height: inherit;
+}
